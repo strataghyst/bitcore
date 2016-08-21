@@ -6,31 +6,30 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('f9beb4d9'),
-  addressVersion: 0x00,
-  privKeyVersion: 128,
+  magic: hex('fcfef7e0'),
+  addressVersion: 0x26,
+  privKeyVersion: 0xA6,
   P2SHVersion: 5,
-  hkeyPublicVersion: 0x0488b21e,
-  hkeyPrivateVersion: 0x0488ade4,
+  hkeyPublicVersion: 0x0488c42e,
+  hkeyPrivateVersion: 0x0488e1f4,
   genesisBlock: {
-    hash: hex('6FE28C0AB6F1B372C1A6A246AE63F74F931E8365E15A089C68D6190000000000'),
-    merkle_root: hex('3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'),
+    hash: hex('922f5851a2c6b8aa1a2de53c10c5deb87839e55b2eb62b74f6bfb561a4715d6c'),
+    merkle_root: hex('f8dcd6e372bf9002b89d6da07b0e6fb65b623751458de65a4497603ecb0bed4b'),
     height: 0,
-    nonce: 2083236893,
+    nonce: 2200095,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1231006505,
-    bits: 486604799,
+    timestamp: 1009843200,
+    bits: 504365040,
   },
   dnsSeeds: [
-    'seed.bitcoin.sipa.be',
-    'dnsseed.bluematt.me',
-    'dnsseed.bitcoin.dashjr.org',
-    'seed.bitcoinstats.com',
-    'seed.bitnodes.io',
-    'bitseed.xf2.org'
+    'seed-000.gulden.com',
+    'seed-001.gulden.blue',
+    'seed-002-gulden.network',
+    'seed-003.gulden.com',
+    'seed-004.gulden.blue'
   ],
-  defaultClientPort: 8333
+  defaultClientPort: 9231
 };
 
 exports.mainnet = exports.livenet;
