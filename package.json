@@ -47,7 +47,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/strataghyst/bitcore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
