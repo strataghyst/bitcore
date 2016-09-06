@@ -1,6 +1,6 @@
 {
   "name": "bitcore",
-  "description": "Bitcoin Library",
+  "description": "Gulden Library",
   "version": "0.1.41",
   "author": {
     "name": "Stephen Pair",
@@ -37,7 +37,7 @@
     }
   ],
   "keywords": [
-    "bitcoin",
+    "gulden",
     "btc",
     "satoshi",
     "money",
